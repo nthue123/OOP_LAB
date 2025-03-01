@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class InputFromKeyboard {
+public class Bai62 {
 
     public static void main(String args[]) {
 
