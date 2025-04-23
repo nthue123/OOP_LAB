@@ -8,11 +8,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2w4sQNqPLaUxUKGE9pRzlHNA4yS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +22,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "release/lab03",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git/Lab03",
+    "last_opened_file_path": "D:/git/Lab03/AimsProject/src",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745312163281</updated>
       <workItem from="1745312164696" duration="35000" />
+      <workItem from="1745426818061" duration="204000" />
     </task>
     <servers />
   </component>

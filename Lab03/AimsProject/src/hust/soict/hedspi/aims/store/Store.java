@@ -1,4 +1,4 @@
-package hust.soict.hespi.aims.store;
+package hust.soict.hedspi.aims.store;
 
 import hust.soict.hespi.aims.media.Media;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package hust.soict.hespi.aims.cart;
+package hust.soict.hesdpi.aims.cart;
 
 import hust.soict.hespi.aims.media.DigitalVideoDisc;
 import hust.soict.hespi.aims.media.Media;
