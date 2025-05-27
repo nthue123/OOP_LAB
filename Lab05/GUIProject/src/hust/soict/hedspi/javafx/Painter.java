@@ -1,21 +1,24 @@
 package hust.soict.hedspi.javafx;
 
-public class Painter {
-    public class Painter extends Application {
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-        @Override
-        public void start(Stage stage) throws Exception {
-            Parent root = FXMLLoader.load(getClass()
-                    .getResource("/hust/soict/hedspi/javafx/Painter.fxml"));
+public class Painter extends Application {
 
-            Scene scene = new Scene(root);
-            stage.setTitle("Painter");
-            stage.setScene(scene);
-            stage.show();
-        }
+    @Override
+    public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader.load(getClass()
+                .getResource("/hust/soict/hedspi/javafx/Painter.fxml"));
 
-        public static void main(String[] args) {
-            launch(args);
-        }
+        Scene scene = new Scene(root);
+        stage.setTitle("Painter");
+        stage.setScene(scene);
+        stage.show();
+    }
+    public static void main(String[] args) {
+        launch(args);
     }
 }

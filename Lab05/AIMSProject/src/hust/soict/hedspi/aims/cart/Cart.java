@@ -103,8 +103,4 @@ public class Cart {
     public ArrayList<Media> getItemsOrdered() {
         return itemsOrdered;
     }
-
-    public void addDigitalVideoDisc(DigitalVideoDisc dvd1) {
-
-    }
 }
