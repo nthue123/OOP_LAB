@@ -4,22 +4,22 @@ public class DigitalVideoDisc extends Disc implements Playable{
     private static int nbDigitalVideoDiscs = 0;
 
     public DigitalVideoDisc(String title) {
-        super(title, null, 0, 0, null);
+        super(nbDigitalVideoDiscs + 1, title, null, 0, 0, null);
         nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String title, String category, float cost) {
-        super(title, category, cost, 0, null);
+        super(nbDigitalVideoDiscs + 1, title, category, cost, 0, null);
         nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String title, String category, String director, float cost) {
-        super(title, category, cost, 0, director);
+        super(nbDigitalVideoDiscs + 1, title, category, cost, 0, director);
         nbDigitalVideoDiscs++;
     }
 
     public DigitalVideoDisc(String title, String category, String director, int length, float cost) {
-        super(title, category, cost, length, director);
+        super(nbDigitalVideoDiscs + 1, title, category, cost, length, director);
         nbDigitalVideoDiscs++;
     }
 
